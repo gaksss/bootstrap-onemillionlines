@@ -21,6 +21,9 @@
 body {
   width: 100vw;
   color: white;
+  font-family: "Arvo", serif;
+  font-weight: lighter;
+  font-style: normal;
 }
 
 header {
@@ -51,56 +54,87 @@ nav a {
   color: #8d8686;
 }
 nav a:hover {
-    color: white;
+  color: white;
 }
 
-#home  {
-height: 700px;
-background-image: url("../images/hero-image.jpg");
-display: flex;
-justify-content: center;
-align-items: center;
+#home {
+  height: 800px;
+  background-image: url("../images/hero-image.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
 
 #home h1 {
-    font-size: 4rem;
-    padding-bottom: 50px;
+  font-size: 4rem;
+  padding-bottom: 50px;
 }
 
 #home div {
-    width: 50%;
-    text-align: center;
-    
+  width: 50%;
+  text-align: center;
 }
 #home p {
-    color: #f3f3f3;
-    padding-bottom: 50px;
-    justify-content: center;
-    font-size: large;
+  color: #f3f3f3;
+  padding-bottom: 50px;
+  justify-content: center;
+  font-size: large;
 }
 #btnlearn {
-    background-color: #d9534f;
-    color: white;
-    height: 50px;
-    width: 200px;
-    border: none;
-    border-radius: 10px;
-    font-size: x-large;
-    
+  background-color: #d9534f;
+  color: white;
+  height: 50px;
+  width: 200px;
+  border: none;
+  border-radius: 10px;
+  font-size: x-large;
 }
 #btnlearn:hover {
-    background-color: #b14440;
-    cursor: pointer;
+  background-color: #b14440;
+  cursor: pointer;
 }
 
 #home img {
+  display: flex;
+  justify-self: center;
+  align-items: end;
+  padding-top: 50px;
+  
+}
+
+#who {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    color: black;
+  }
+  #brand {
     display: flex;
     justify-self: center;
-    align-items: end;
-    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+
+
+  #who h2 {
+    text-align: center;
     
-}
+    color: #d9534f;
+    padding-bottom: 5px;
+  }
+
+  hr {
+    border-color: #d9534f;
+    width: 10%;
+    display: flex;
+    justify-self: center;
+  }
+
+  #who p {
+    padding-top: 30px;
+    width: 60%;
+    text-align: center;
+    justify-self: center;
+  }
 
 
 
@@ -111,14 +145,14 @@ align-items: center;
 /* Font family */
 
 .arvo-regular {
-    font-family: "Arvo", serif;
-    font-weight: 100;
-    font-style: normal;
-  }
-  
-  .arvo-bold {
-    font-family: "Arvo", serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
+  font-family: "Arvo", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.arvo-bold {
+  font-family: "Arvo", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
