@@ -92,6 +92,7 @@ nav a:hover {
 #btnlearn:hover {
   background-color: #b14440;
   cursor: pointer;
+  
 }
 
 #home img {
@@ -99,48 +100,150 @@ nav a:hover {
   justify-self: center;
   align-items: end;
   padding-top: 50px;
-  
 }
 
 #who {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  color: black;
+  padding-bottom: 50px;
+}
+#brand {
+  display: flex;
+  justify-self: center;
+  padding-bottom: 30px;
+}
+
+#who h2 {
+  text-align: center;
+
+  color: #d9534f;
+  padding-bottom: 5px;
+}
+
+hr {
+  border-color: #d9534f;
+  width: 10%;
+  display: flex;
+  justify-self: center;
+}
+
+#who p {
+  padding-top: 30px;
+  width: 60%;
+  text-align: center;
+  justify-self: center;
+}
+
+#get-involved {
     padding-top: 50px;
-    display: flex;
-    justify-content: center;
-    color: black;
-  }
-  #brand {
-    display: flex;
-    justify-self: center;
-    padding-bottom: 30px;
-  }
+  padding-bottom: 50px;
+  background-color: #f5f5f5;
+}
 
+#get-involved h2 {
+  color: #d9534f;
+  text-align: center;
+  padding-bottom: 5px;
+}
 
-  #who h2 {
-    text-align: center;
-    
-    color: #d9534f;
-    padding-bottom: 5px;
-  }
+.grid {
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  margin-top: 40px;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+  margin-bottom: 50px;
+}
 
-  hr {
-    border-color: #d9534f;
-    width: 10%;
-    display: flex;
-    justify-self: center;
-  }
+#students {
+  grid-column: 1;
+  grid-row: 1;
+}
 
-  #who p {
-    padding-top: 30px;
-    width: 60%;
-    text-align: center;
-    justify-self: center;
-  }
+#students .svg {
+  height: 100px;
+  justify-self: center;
+  display: flex;
+}
 
+#students p {
+  width: 80%;
+  color: black;
+  text-align: center;
+  justify-self: center;
+  padding-bottom: 20px;
+}
 
+#students a {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
 
+#educators {
+  grid-column: 2;
+  grid-row: 1;
+}
 
+#educators .svg {
+  height: 100px;
+  justify-self: center;
+  display: flex;
+}
 
+#educators p {
+  width: 80%;
+  color: black;
+  text-align: center;
+  justify-self: center;
+  padding-bottom: 20px;
+}
 
+#educators a {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+#sponsors {
+  grid-column: 3;
+  grid-row: 1;
+}
+
+#sponsors .svg {
+  height: 100px;
+  justify-self: center;
+  display: flex;
+}
+
+#sponsors p {
+  width: 80%;
+  color: black;
+  text-align: center;
+  justify-self: center;
+  padding-bottom: 20px;
+}
+
+#sponsors a {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+.btn {
+  text-align: center;
+  background-color: white;
+  color: #d9534f;
+  width: 130px;
+  height: 30px;
+  border-color: #dbcfcf;
+}
+.btn:hover {
+  background-color: #dbcfcf;
+  cursor: pointer;
+}
 
 /* Font family */
 
@@ -155,4 +258,3 @@ nav a:hover {
   font-weight: 700;
   font-style: normal;
 }
-
