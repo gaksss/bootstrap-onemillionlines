@@ -20,12 +20,11 @@
 
 body {
   width: 100vw;
-
+  color: white;
 }
 
 header {
   background-color: #222222;
-  
 }
 
 nav {
@@ -37,21 +36,89 @@ nav {
 }
 
 nav img {
-    margin-left: 200px;
-    object-fit: contain;
-    
+  margin-left: 200px;
+  object-fit: contain;
 }
 
 nav div {
+  display: flex;
+  gap: 20px;
+  margin-right: 200px;
+  text-decoration: none;
+}
+nav a {
+  text-decoration: none;
+  color: #8d8686;
+}
+nav a:hover {
+    color: white;
+}
+
+#home  {
+height: 700px;
+background-image: url("../images/hero-image.jpg");
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+#home h1 {
+    font-size: 4rem;
+    padding-bottom: 50px;
+}
+
+#home div {
+    width: 50%;
+    text-align: center;
+    
+}
+#home p {
+    color: #f3f3f3;
+    padding-bottom: 50px;
+    justify-content: center;
+    font-size: large;
+}
+#btnlearn {
+    background-color: #d9534f;
+    color: white;
+    height: 50px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    font-size: x-large;
+    
+}
+#btnlearn:hover {
+    background-color: #b14440;
+    cursor: pointer;
+}
+
+#home img {
     display: flex;
-    gap: 20px; 
-    margin-right: 200px;
-    text-decoration: none;
-}
-a {
-    text-decoration: none;
-    color: white;   
+    justify-self: center;
+    align-items: end;
+    padding-top: 50px;
+    
 }
 
 
 
+
+
+
+
+/* Font family */
+
+.arvo-regular {
+    font-family: "Arvo", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .arvo-bold {
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
