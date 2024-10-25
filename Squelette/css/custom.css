@@ -3,6 +3,8 @@
 /* Responsive Styling */
 
 @media (max-width: 1199px) {
+
+
 }
 
 @media (max-width: 991px) {
@@ -273,14 +275,15 @@ footer {
   color: #fff;
   border-radius: 100px;
   bottom: 20px;
-  justify-self: end;
-  display: flex;
+  
   right: 50px;
   position: fixed;
 }
 #arrowup {
   height: 50px;
 }
+
+
 
 /* Font family */
 
