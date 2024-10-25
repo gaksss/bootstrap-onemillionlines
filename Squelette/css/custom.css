@@ -1,18 +1,57 @@
 /* Vos customisations des classes de Bootstrap */
 
-
-
-
 /* Responsive Styling */
 
 @media (max-width: 1199px) {
-
 }
 
 @media (max-width: 991px) {
-
 }
 
 @media (max-width: 767px) {
+}
+
+/* Pour set le margin et padding à 0 pour le changer par la suite*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
 
 }
+
+header {
+  background-color: #222222;
+  
+}
+
+nav {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+nav img {
+    margin-left: 200px;
+    object-fit: contain;
+    
+}
+
+nav div {
+    display: flex;
+    gap: 20px; 
+    margin-right: 200px;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: white;   
+}
+
+
+
