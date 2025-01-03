@@ -63,7 +63,7 @@ nav a:hover {
 }
 
 #home {
-  height: 800px;
+  height: 100vh;
   background-image: url("../images/hero-image.jpg");
   display: flex;
   justify-content: center;
